@@ -14,5 +14,5 @@ createRoot(document.getElementById('root')!).render(
       <CssBaseline />
       <App />
     </BrowserRouter>
-  </StrictMode >,
+  </StrictMode>,
 )
