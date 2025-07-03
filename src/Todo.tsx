@@ -16,8 +16,8 @@ export default function Todo() {
             onChange={e => setInputValue(e.target.value)}/>
             <button onClick={handleAdd}>Add</button>
             <ul>
-                {todos.map((todo, index) => (
-                    <li key={index}>
+                {todos.map(todo => (
+                    <li key={todo}>
                         {todo}
                     </li>
                 ))}
