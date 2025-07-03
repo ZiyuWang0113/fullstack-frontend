@@ -1,6 +1,5 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-// import './index.css'
 import App from './App.tsx'
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -15,5 +14,5 @@ createRoot(document.getElementById('root')!).render(
       <CssBaseline />
       <App />
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode >,
 )

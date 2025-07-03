@@ -5,13 +5,11 @@ import MainContainer from './MainContainer';
 
 
 export default function Layout() {
-    return (
-    <>
+    return <>
       <TopNav />
       <Box sx={{ display: 'flex' }}>
         <SideNav />
         <MainContainer />
       </Box>
     </>
-    )
 }
