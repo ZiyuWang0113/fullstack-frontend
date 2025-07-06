@@ -28,11 +28,13 @@ export default function SideNav() {
         <Toolbar />
         <List>
             {links.map((link) => (
-                <ListItem key={link.path} disablePadding>
-                  <ListItemButton component={Link} to={link.path}>
-                    <ListItemText primary={link.label} />
-                  </ListItemButton>
-                </ListItem>
+                <Link key={link.path} to={link.path}>
+                    <ListItem  disablePadding>
+                        <ListItemButton>
+                            <ListItemText primary={link.label} />
+                        </ListItemButton>
+                    </ListItem>
+                </Link>
             ))}
         </List>
     </Drawer>
